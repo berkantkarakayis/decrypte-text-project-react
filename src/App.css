@@ -179,7 +179,7 @@
     z-index: -1;
   }
 
-  .bear-link {
+  .logo-link {
     color: canvasText;
     position: fixed;
     top: 1rem;
@@ -191,11 +191,11 @@
     opacity: 0.8;
   }
 
-  :where(.x-link, .bear-link):is(:hover, :focus-visible) {
+  :where(.x-link, .logo-link):is(:hover, :focus-visible) {
     opacity: 1;
   }
 
-  .bear-link svg {
+  .logo-link svg {
     width: 75%;
   }
 

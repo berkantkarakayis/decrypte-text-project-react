@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const ctrl = new Pane({
       title: "Config",
-      expanded: true,
+      expanded: false,
     });
 
     const randomString = (length) => {
@@ -128,7 +128,7 @@ const App = () => {
         &nbsp;&nbsp; &copy; '24
       </footer>
       <a
-        className="bear-link"
+        className="logo-link"
         href="https://berkant.vercel.app"
         target="_blank"
         rel="noreferrer noopener"
