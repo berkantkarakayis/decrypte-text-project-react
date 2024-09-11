@@ -70,6 +70,10 @@ const App = () => {
       </p>
     `;
       document.documentElement.dataset.theme = config.theme;
+      document.documentElement.dataset.debug = config.debug;
+      document.documentElement.style.setProperty("--track", config.track);
+      document.documentElement.style.setProperty("--start", config.start);
+      document.documentElement.style.setProperty("--end", config.end);
     };
 
     const sync = (event) => {
