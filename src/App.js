@@ -121,22 +121,26 @@ const App = () => {
       <main className="fluid">
         <div className="encrypted fluid"></div>
       </main>
-      <footer>ʕ•ᴥ•ʔ @jh3yy &copy; '24</footer>
+      <footer>
+        <span target="_blank" rel="noopener noreferrer">
+          ( ◠‿◠ ) Berkant KARAKAYIŞ
+        </span>
+        &nbsp;&nbsp; &copy; '24
+      </footer>
       <a
         className="bear-link"
-        href="https://twitter.com/intent/follow?screen_name=jh3yy"
+        href="https://berkant.vercel.app"
         target="_blank"
         rel="noreferrer noopener"
       >
-        {/* SVG for the bear */}
-        <svg
+        <span
           className="w-9"
           viewBox="0 0 969 955"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          {/* Add the necessary SVG elements here */}
-        </svg>
+          BK
+        </span>
       </a>
     </div>
   );
