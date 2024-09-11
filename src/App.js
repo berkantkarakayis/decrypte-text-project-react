@@ -55,7 +55,6 @@ const App = () => {
           randomString(config.track)
         )}</span>`;
       }
-
       return hold.innerHTML;
     };
 
@@ -99,21 +98,6 @@ const App = () => {
       max: 50,
       step: 1,
       label: "Chars",
-    });
-
-    const range = ctrl.addFolder({ title: "Range Step" });
-    range.addBinding(config, "start", {
-      min: -10,
-      max: 10,
-      step: 0.01,
-      label: "Start",
-    });
-
-    range.addBinding(config, "end", {
-      min: -10,
-      max: 10,
-      step: 0.01,
-      label: "End",
     });
 
     ctrl.addBinding(config, "debug", {
